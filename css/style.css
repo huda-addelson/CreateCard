@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: rgba(0, 0, 255, 0.493);
+}
+
+.harga-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.harga-wrapper .harga-box {
+  width: 360px;
+  margin: 1rem;
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  -webkit-box-shadow: 2px 4px 0px black;
+          box-shadow: 2px 4px 0px black;
+}
+
+.harga-wrapper .harga-box .harga-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.harga-wrapper .harga-box .harga-title h3 {
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+}
+
+.harga-wrapper .harga-box .harga-title h3::before {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 80%;
+  top: -30%;
+  left: -50%;
+  border-bottom: 3px solid rgba(0, 128, 0, 0.507);
+}
+
+.harga-wrapper .harga-box .harga-title h3::after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 80%;
+  top: -30%;
+  right: -50%;
+  border-bottom: 3px solid rgba(0, 128, 0, 0.507);
+}
+
+.harga-wrapper .harga-box .harga-produk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.harga-wrapper .harga-box .harga-produk p {
+  display: inline-block;
+  position: relative;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.harga-wrapper .harga-box .harga-produk p::before {
+  position: absolute;
+  content: "$";
+  top: 0;
+  left: -1.2rem;
+  font-size: 2rem;
+}
+
+.harga-wrapper .harga-box .harga-produk p::after {
+  position: absolute;
+  content: "/Month";
+  bottom: 1rem;
+  right: -4rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.harga-wrapper .harga-box .feature {
+  margin-bottom: 10px;
+}
+
+.harga-wrapper .harga-box .feature .fas {
+  margin-right: 10px;
+}
+
+.harga-wrapper .harga-box .feature li {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.harga-wrapper .harga-box .btn {
+  display: block;
+  background: rgba(0, 128, 0, 0.507);
+  padding: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  -webkit-transition: all .30s ease;
+  transition: all .30s ease;
+}
+
+.harga-wrapper .harga-box .btn:hover {
+  background: white;
+  border: 1px solid rgba(0, 128, 0, 0.507);
+  color: black;
+  -webkit-transition: all .30s ease;
+  transition: all .30s ease;
+}
+/*# sourceMappingURL=style.css.map */
